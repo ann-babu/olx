@@ -38,7 +38,7 @@ return{...products.data(),id:products.id}
               <img src={products.url} alt="" />
             </div>
             <div className="content">
-              <p className="rate">&#x20B9; {products.price}</p>
+              <p className="rate">&#x20B9{products.price}</p>
               <span className="kilometer">{products.category}</span>
               <p className="name">{products.name}</p>
             </div>
